@@ -1,0 +1,22 @@
+{
+  "mood": "Mystical",
+  "generalAdvice": "General Advice:",
+  "positives": [
+    "",
+    " -",
+    ""
+  ],
+  "concerns": [
+    "",
+    "",
+    "     (Details)",
+    "Vastu/Remedies:"
+  ],
+  "luckyColor": "Lucky Color:",
+  "remedies": "Meditate for clarity.",
+  "detailedPrediction": "Detailed Prediction:                \"  \"   ,",
+  "meta": {
+    "source": "manual-upload",
+    "generatedSource": "local"
+  }
+}
