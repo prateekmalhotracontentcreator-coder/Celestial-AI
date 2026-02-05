@@ -1,0 +1,10 @@
+/ (Root of your Repo)
+  ├── blog_posts.json      <-- The main file
+  ├── horoscopes/          <-- Your daily txt/json files
+  └── assets/              <-- Create this folder for media
+      ├── images/
+      │   └── transit_chart.jpg
+      ├── videos/
+      │   └── daily_insight.mp4
+      └── docs/
+          └── mantra_guide.pdf
