@@ -1,14 +1,13 @@
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // IMPORTANT: Using './' ensures the app finds its files regardless of the repository name
-  base: "./", 
+  // This ensures assets are loaded relatively (e.g., ./assets/script.js)
+  // which is required for GitHub Pages subdirectories.
+  base: '', 
   define: {
-    // This prevents "process is not defined" error in the browser
     'process.env': {} 
   },
   server: {
