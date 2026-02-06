@@ -7,9 +7,6 @@ export default defineConfig({
   // This ensures assets are loaded relatively (e.g., ./assets/script.js)
   // which is required for GitHub Pages subdirectories.
   base: '', 
-  define: {
-    'process.env': {} 
-  },
   server: {
     host: '0.0.0.0',
     port: 8080,
