@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   // This ensures assets are loaded relatively (e.g., ./assets/script.js)
   // which is required for GitHub Pages subdirectories.
-  base: '', 
+  base: './', 
   server: {
     host: '0.0.0.0',
     port: 8080,
