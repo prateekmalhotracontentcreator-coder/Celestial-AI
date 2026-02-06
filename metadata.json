@@ -1,8 +1,0 @@
-{
-  "name": "CelestialAI - The Divine Astrologer",
-  "description": "A premium, AI-powered Vedic astrology platform featuring personalized horoscopes, Vastu insights, Lal Kitab remedies, and a real-time AI Panditji for cosmic guidance.",
-  "requestFramePermissions": [
-    "microphone",
-    "geolocation"
-  ]
-}
